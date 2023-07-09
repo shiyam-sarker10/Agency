@@ -1,221 +1,257 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 /* common used styles  */
 
-.primary{
-    color:rgb(245, 44, 44);
-
+.primary {
+  color: rgb(245, 44, 44);
 }
-.btn{
-    padding:15px 35px;
-    font-size: 16px;
-    background-color: white;
-    border:none;
-
+.btn {
+  padding: 15px 35px;
+  font-size: 16px;
+  background-color: white;
+  border: none;
 }
-.btn:active{
-
-    background-color: rgb(122, 122, 122);
-
+.btn:active {
+  background-color: rgb(122, 122, 122);
 }
 /* nav section  */
-.nav-container{
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(54,54,54);
-    padding:20px;
-    position: sticky;
 
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(34, 34, 34);
+  padding: 20px;
 }
-.nav-logo .logo{
-    width:160px
+.nav-logo .logo {
+  width: 160px;
 }
 
-.nav-menu{
-    display: flex;
-    align-items: center;
-
+.nav-menu {
+  display: flex;
+  align-items: center;
 }
-.nav-menu li{
-    list-style: none;
-    padding:0px 30px;
-    font-size: 20px;
-    color: white;
-    font-weight: bold;
+.nav-menu li {
+  list-style: none;
+  padding: 0px 30px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
 }
 
 /* banner section style  */
-.banner-container{
-    background-image: url('../image/background.jpg'),
-    linear-gradient(rgba(54,54,54,0.6),rgba(54,54,54,0.8));
-    background-blend-mode: overlay;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-     width: 100%;
-     justify-content: center;
+.banner-container {
+  background-image: url("../image/background.jpg"),
+    linear-gradient(rgba(54, 54, 54, 0.6), rgba(54, 54, 54, 0.8));
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  position: sticky;
 }
 .banner-info {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
-.banner-title  {
-    font-size: 85px;
-    color: white;
-    font-weight: 900;
+.banner-title {
+  font-size: 85px;
+  color: white;
+  font-weight: 900;
 }
-.banner-desc{
-    color: white;
-    font-size:22px;
-    padding:10px;
-    width: 50%;
-    margin: auto;
+.banner-desc {
+  color: white;
+  font-size: 22px;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
 }
 .btn-more {
-    background-color: rgb(245, 44, 44); /*rgb(245, 44, 44)*/
-    color: white;
-    margin-right: 10px;
+  background-color: rgb(245, 44, 44); /*rgb(245, 44, 44)*/
+  color: white;
+  margin-right: 10px;
 }
 .btn-more:active {
-    background-color: rgb(167, 28, 28); /*rgb(245, 44, 44)*/
-    color: white;
-    margin-right: 10px;
+  background-color: rgb(167, 28, 28); /*rgb(245, 44, 44)*/
+  color: white;
+  margin-right: 10px;
 }
 /* header end  */
 
-
-
 /* service section styles  */
-.service-section{
-    width: 100%;
-    background-image: url('../image/footer-bg.png'),
-    linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.9));
-    background-blend-mode: overlay;
-    background-position: center;
-    height: 100vh;
-    color: white;
-    padding-bottom:120px;
+.service-section {
+  width: 100%;
+  background-image: url("../image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  padding-bottom: 120px;
 }
-.service-container{
-    width: 90%;
-    margin: auto;
-    height: 100vh;
-    display: flex;
-    align-items: center;
+.service-container {
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
-.service-list-btn{
-    color:gray;
-    border-radius: 25px;
+.service-list-btn {
+  color: gray;
+  border-radius: 25px;
 }
-.service-list-btn:active{
-    background-color: rgb(196, 192, 192);
-    color:white
+.service-list-btn:active {
+  background-color: rgb(196, 192, 192);
+  color: white;
 }
-.service-left-title{
-    font-size: 35px;
-    color: rgb(190, 207, 208);
-    padding: 10px 0;
+.service-left-title {
+  font-size: 35px;
+  color: rgb(190, 207, 208);
+  padding: 10px 0;
 }
-.service-left-desc{
-    font-size: 20px;
-    color: rgb(190, 207, 208);
-    width: 80%;
-    padding:10px 0;
+.service-left-desc {
+  font-size: 20px;
+  color: rgb(190, 207, 208);
+  width: 80%;
+  padding: 10px 0;
 }
-.service-list{
-    color:rgb(190, 207, 208);
-    padding:15px;
-    font-size: 18px;
+.service-list {
+  color: rgb(190, 207, 208);
+  padding: 15px;
+  font-size: 18px;
 }
 
 /* ? */
-.box-pair{
-    display: flex;
-    gap:15px;
+.box-pair {
+  display: flex;
+  gap: 15px;
 }
-.box{
-    background-color: white;
-    color: black;
-    padding:50px;
-    width:200px;
-    height:200px;
-    margin-bottom:10px;
-    border-radius:5px;
-    text-align: center;
+.box {
+  background-color: white;
+  color: black;
+  padding: 50px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
 }
 .box h3 {
-    
-   padding:20px 0;
-    
+  padding: 20px 0;
 }
-.box-img{
-    width:100px;
-    padding: 10px 0;
+.box-img {
+  width: 100px;
+  padding: 10px 0;
 }
-.author-container{
-    padding-top:20px ;
-    display: flex;
-   gap:20px;
-   align-items: center;
+.author-container {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
-.author-profile{
-    display: flex;
-    align-items: center;
-    gap:10px;
-    padding-right:80px;
-    border-right: 3px solid rgb(245, 44, 44);
+.author-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 80px;
+  border-right: 3px solid rgb(245, 44, 44);
 }
-.author-img{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+.author-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
-.more-details-btn{
-    border-radius: 25px;
-    color: rgb(245, 44, 44);
+.more-details-btn {
+  border-radius: 25px;
+  color: rgb(245, 44, 44);
 }
-.more-details-btn:active{
-    color:white;
-    background-color:rgb(245, 44, 44) ;
+.more-details-btn:active {
+  color: white;
+  background-color: rgb(245, 44, 44);
 }
 /* contact style start  */
-.contact-container{
-    display: flex;
-    justify-content: space-around;
-    background-color:rgb(245, 44, 44) ;
-    width:80%;
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(245, 44, 44);
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: -80px;
+}
+.contact-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-right: 2px solid white;
+}
+.contact-details {
+  color: white;
+  padding: 20px;
+}
+.contact-details-text {
+  font-size: 10px;
+  font-weight: bold;
+}
+.contact-details-number {
+  font-size: 30px;
+}
+.contact-text {
+  width: 45%;
+  color: white;
+}
+.appointment-btn {
+  border-radius: 25px;
+}
+
+/* blog section start  */
+.blog-header{
+    padding-top: 30px;
+    width:50%;
     margin: auto;
-    align-items: center;
-    border-radius: 15px;
-    padding: 30px;
-    margin-top:-80px
+    text-align: center;
 }
-.contact-info{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    border-right: 2px solid white;
+.blog-title{
+    font-size: 50px;
+}
+.blog-desc{
+    font-size: 20px;
+}
+.blog-card-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+  margin-top: 35px;
+}
+.blog-card-img {
+  width: 100%;
+  padding-bottom:10px;
+  border-radius: 7px;
+  transition: 0.2s;
+}
+.blog-card-img:hover {
+transform: scale(1.2);
+}
+.blog-card {
+  width: 350px;
+  height: 430px;
+  border-radius: 14px;
+  box-shadow: 4px 4px 8px rgb(54, 54, 54, 0.6);
+  background: white;
+}
 
+.blog-card-caption {
+  padding: 10px;
+  color: rgb(65, 65, 65);
 }
-.contact-details{
-    color:white;
-    padding:20px;
+.blog-card-desc {
+  color: rgb(65, 65, 65);
+  font-size: 18px;
+  padding: 10px;
 }
-.contact-details-text{
-    font-size: 10px;
-    font-weight: bold;
-}
-.contact-details-number{
-    font-size: 30px;
-}
-.contact-text{
-    width:45%;
-    color: white;
-}
-.appointment-btn{
-    border-radius: 25px;
-}
-
