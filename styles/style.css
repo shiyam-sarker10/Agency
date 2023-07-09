@@ -97,6 +97,7 @@
     background-position: center;
     height: 100vh;
     color: white;
+    padding-bottom:120px;
 }
 .service-container{
     width: 90%;
@@ -133,8 +134,7 @@
 /* ? */
 .box-pair{
     display: flex;
-    gap:15px
-    
+    gap:15px;
 }
 .box{
     background-color: white;
@@ -181,3 +181,41 @@
     color:white;
     background-color:rgb(245, 44, 44) ;
 }
+/* contact style start  */
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(245, 44, 44) ;
+    width:80%;
+    margin: auto;
+    align-items: center;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top:-80px
+}
+.contact-info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-right: 2px solid white;
+
+}
+.contact-details{
+    color:white;
+    padding:20px;
+}
+.contact-details-text{
+    font-size: 10px;
+    font-weight: bold;
+}
+.contact-details-number{
+    font-size: 30px;
+}
+.contact-text{
+    width:45%;
+    color: white;
+}
+.appointment-btn{
+    border-radius: 25px;
+}
+
