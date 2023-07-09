@@ -2,9 +2,25 @@
     margin: 0;
     padding: 0;
 }
+/* common used styles  */
+
 .primary{
-    color:red;
+    color:rgb(245, 44, 44);
+
 }
+.btn{
+    padding:15px 35px;
+    font-size: 16px;
+    background-color: white;
+    border:none;
+
+}
+.btn:active{
+
+    background-color: rgb(122, 122, 122);
+
+}
+/* nav section  */
 .nav-container{
     display: flex;
     justify-content: space-around;
@@ -12,6 +28,9 @@
     padding:20px;
     position: sticky;
 
+}
+.nav-logo .logo{
+    width:160px
 }
 
 .nav-menu{
@@ -25,4 +44,140 @@
     font-size: 20px;
     color: white;
     font-weight: bold;
+}
+
+/* banner section style  */
+.banner-container{
+    background-image: url('../image/background.jpg'),
+    linear-gradient(rgba(54,54,54,0.6),rgba(54,54,54,0.8));
+    background-blend-mode: overlay;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+     width: 100%;
+     justify-content: center;
+}
+.banner-info {
+    width: 100%;
+    text-align: center;
+}
+.banner-title  {
+    font-size: 85px;
+    color: white;
+    font-weight: 900;
+}
+.banner-desc{
+    color: white;
+    font-size:22px;
+    padding:10px;
+    width: 50%;
+    margin: auto;
+}
+.btn-more {
+    background-color: rgb(245, 44, 44); /*rgb(245, 44, 44)*/
+    color: white;
+    margin-right: 10px;
+}
+.btn-more:active {
+    background-color: rgb(167, 28, 28); /*rgb(245, 44, 44)*/
+    color: white;
+    margin-right: 10px;
+}
+/* header end  */
+
+
+
+/* service section styles  */
+.service-section{
+    width: 100%;
+    background-image: url('../image/footer-bg.png'),
+    linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+.service-container{
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.service-list-btn{
+    color:gray;
+    border-radius: 25px;
+}
+.service-list-btn:active{
+    background-color: rgb(196, 192, 192);
+    color:white
+}
+.service-left-title{
+    font-size: 35px;
+    color: rgb(190, 207, 208);
+    padding: 10px 0;
+}
+.service-left-desc{
+    font-size: 20px;
+    color: rgb(190, 207, 208);
+    width: 80%;
+    padding:10px 0;
+}
+.service-list{
+    color:rgb(190, 207, 208);
+    padding:15px;
+    font-size: 18px;
+}
+
+/* ? */
+.box-pair{
+    display: flex;
+    gap:15px
+    
+}
+.box{
+    background-color: white;
+    color: black;
+    padding:50px;
+    width:200px;
+    height:200px;
+    margin-bottom:10px;
+    border-radius:5px;
+    text-align: center;
+}
+.box h3 {
+    
+   padding:20px 0;
+    
+}
+.box-img{
+    width:100px;
+    padding: 10px 0;
+}
+.author-container{
+    padding-top:20px ;
+    display: flex;
+   gap:20px;
+   align-items: center;
+}
+.author-profile{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding-right:80px;
+    border-right: 3px solid rgb(245, 44, 44);
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.more-details-btn{
+    border-radius: 25px;
+    color: rgb(245, 44, 44);
+}
+.more-details-btn:active{
+    color:white;
+    background-color:rgb(245, 44, 44) ;
 }
