@@ -43,7 +43,7 @@
 /* banner section style  */
 .banner-container {
   background-image: url("../image/background.jpg"),
-    linear-gradient( #9c009449, #1b054d62);
+    linear-gradient(rgba(54, 54, 54, 0.6), rgba(54, 54, 54, 0.8));
   background-blend-mode: overlay;
   background-position: center;
   height: 100vh;
@@ -84,7 +84,8 @@
 /* service section styles  */
 .service-section {
   width: 100%;
-  background-image:url('../image/footer-bg.png'), linear-gradient( #9c0094c2, #1a054d);
+  background-image: url("../image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
   background-blend-mode: overlay;
   background-position: center;
   height: 100vh;
@@ -256,7 +257,7 @@ transform: scale(1.2);
 }
  /* footer section start   */
  .footer{
-  background-image:url('../image/footer-bg.png'), linear-gradient( #9c0094c2, #1a054d);
+  background-image:url('../image/footer-bg.png'), linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.8));
   background-blend-mode: overlay ;
   background-position: center;
   background-repeat: no-repeat;
